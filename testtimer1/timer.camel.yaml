@@ -12,8 +12,6 @@
             uri: http
             parameters:
               httpUri: http://numbersapi.com/1338/trivia?notfound=floor&fragment
-        - to:
+        - log:
             id: to-c8b7
-            uri: log
-            parameters:
-              loggerName: logger
+            message: "🔥 Message from HTTP: ${body}"

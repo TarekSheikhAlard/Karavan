@@ -1,0 +1,8 @@
+- route:
+    id: route-e8b8
+    nodePrefixId: route-f0b
+    from:
+      id: from-642e
+      uri: timer
+      parameters:
+        timerName: testtimer

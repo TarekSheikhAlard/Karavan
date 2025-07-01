@@ -6,3 +6,14 @@
       uri: timer
       parameters:
         timerName: testtimer
+      steps:
+        - to:
+            id: to-9f1d
+            uri: http
+            parameters:
+              httpUri: http://numbersapi.com/1338/trivia?notfound=floor&fragment
+        - to:
+            id: to-c8b7
+            uri: log
+            parameters:
+              loggerName: logger
